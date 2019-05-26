@@ -26,132 +26,245 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="main">
-            <div class="heading">
-                <a href="#">
-                    <h4>The Magical Touch</h4>
-                    <p class="text">Making Events Simpler</p>
-                </a>
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- header starting -->
+    <header>
+        <div class="container">
+            <div class="mobile_nav">
+                <button class="burger" title="Open and close menu">
+                    <span class="mobile_nav__label">Open and close menu</span>
+                    <div class="top stripe"></div>
+                    <div class="middle stripe"></div>
+                    <div class="bottom stripe"></div>
+                </button>
             </div>
+            <div class="mobile_menu">
+                <nav>
+                    <ul>
+                        <li class="visited">
+                            <a href="/home">Home</a>
+                        </li>
+                        <li>
+                            <a href="/toplist">Services</a>
+                        </li>
+                        <li>
+                            <a href="/forum">About</a>
+                        </li>
+                        <li>
+                            <a href="/blog">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="logo">
+                <span>Magical Touch</span>
+            </div>
+            <nav class="head_nav">
+                <ul>
+                    <li class="visited">
+                        <a href="/home">Home</a>
+                    </li>
+                    <li>
+                        <a href="/toplist">Services</a>
+                    </li>
+                    <li>
+                        <a href="/forum">About</a>
+                    </li>
+                    <li>
+                        <a href="/blog">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main></main>
+    <!-- header ending -->
 
-            <div class="container" id="second">
-                <div class="row">
-                    <div class="col-sm-6 mt-3">
-                        <div class="news">
-                            <h5>Get the FREE Newsletter</h5>
-                            <p class="text">Sign up to get the updates about new events</p>
-                        </div>
-                    </div>
+    <!-- slider starts here -->
 
-                    <div class="col-sm-6 mt-4 text-center d-flex">
-                        <form action="#">
-                            <input type="email" name="email" placeholder="Your Email address">
-                            <button type="button"><i class="far fa-envelope-open"></i></button>
-                        </form>
-
-                    </div>
+    <section id="slideshow">
+        <div class="slider">
+            <div class="slide current">
+                <div class="content">
+                    <h1>Happy Birthday</h1>
+                    <p> we celbrate your Birthday as your desire</p>
                 </div>
             </div>
 
-
-            <div class="container" id="third">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <h6> About Dvents</h6>
-                        <section>
-                            <p class="text-1">The Events Specialists!</p>
-                            <p class="text-2"> ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore
-                                alg minim veniam quis
-                                nostrud lorem psum dolor sit amet sed incididunt.</p>
-                            <button class="btn btn-success">Read More</button>
-                        </section>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <h6>Keep In Touch</h6>
-                        <section>
-                            <div class="icons">
-                                <i class="fas fa-book">38-2 Hilton Street, California, USA</i>
-                                <i class="fas fa-phone-volume">(+01) 123 456 7890</i>
-                                <i class="far fa-envelope-open">info@dvents.org</i>
-                                <i class="far fa-clock">Mon - Fri 9.00 am - 6.00 pm</i>
-                            </div>
-                        </section>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <h6>Events Gallery</h6>
-
-                        <section>
-                            <div class="container mt-2">
-
-                                <div class="grid">
-                                    <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
-                                    <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
-                                    <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
-                                </div>
-
-                                <div class="grid mt-1">
-                                    <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
-                                    <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
-                                    <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
-                                </div>
-
-                            </div>
-                        </section>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <h6> Quick Links</h6>
-
-                        <section>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <ul>
-                                        <li><a href="#">Our Services</a></li>
-                                        <li><a href="#">About Events</a></li>
-                                        <li><a href="#">News Blog</a></li>
-                                        <li><a href="#">Get In Touch</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-6">
-                                    <ul>
-                                        <li><a href="#">Our Team </a></li>
-                                        <li><a href="#">Clients List</a></li>
-                                        <li><a href="#">Brochure</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </section>
-                        <!-- <ul class="list">
-                                    <li><a href="#">Our Services</a></li>
-                                    <li><a href="#">About Events</a></li>
-                                    <li><a href="#">news Blog</a></li>
-                                    <li><a href="#">Get In Touch</a></li>
-                                    <li><a href="#">Our Team </a></li>
-                                    <li><a href="#">Clients List</a></li>
-                                    <li><a href="#">Brochure</a></li>
-                                </ul> -->
-                    </div>
+            <div class="slide">
+                <div class="content">
+                    <h1>Happy Birthday</h1>
+                    <p> we celbrate your Birthday as your desire</p>
                 </div>
             </div>
 
-            <div class="last">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="copyright d-flex">
-                            <p class="text">© <strong>Dvents</strong>- The Events Specialists All Rights Reserved.</p>
-                            <a href="#" class="terms-link">Terms of Use</a>
+            <div class="slide">
+                <div class="content">
+                    <h1>Love Proposal</h1>
+                    <p> We make your love Proposal more memorable</p>
+                </div>
+            </div>
 
-                            <a href="#" class="privacy-link">Privacy Polocy</a>
-                        </div>
-                    </div>
+            <div class="slide">
+                <div class="content">
+                    <h1>Marriage/Anniversary</h1>
+                    <p>We are here to help your marriage</p>
                 </div>
             </div>
         </div>
 
-    </div>
+        <div class="onoffswitch" style="display: none">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+            <label class="onoffswitch-label" for="myonoffswitch">Auto</label>
+        </div>
+
+        <div class="buttons">
+            <button id="prev"><i class="fas fa-arrow-left"></i></button>
+            <button id="next"><i class="fas fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+
+
+    <!-- slider ends here -->
+
+
+    <div class="container-fluid">
+            <div class="main">
+                <div class="heading">
+                    <a href="#">
+                        <h4>The Magical Touch</h4>
+                        <p class="text">Making Events Simpler</p>
+                    </a>
+                </div>
+    
+                <div class="container" id="second">
+                    <div class="row">
+                        <div class="col-sm-6 mt-3">
+                            <div class="news">
+                                <h5>Get the FREE Newsletter</h5>
+                                <p class="text">Sign up to get the updates about new events</p>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-6 mt-4 text-center d-flex">
+                            <form action="#">
+                                <input type="email" name="email" placeholder="Your Email address">
+                                <button type="button"><i class="far fa-envelope-open"></i></button>
+                            </form>
+    
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="container" id="third">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h6> About Dvents</h6>
+                            <section>
+                                <p class="text-1">The Events Specialists!</p>
+                                <p class="text-2"> ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore
+                                    alg minim veniam quis
+                                    nostrud lorem psum dolor sit amet sed incididunt.</p>
+                                <button class="btn btn-success">Read More</button>
+                            </section>
+                        </div>
+    
+                        <div class="col-sm-3">
+                            <h6>Keep In Touch</h6>
+                            <section>
+                                <div class="icons">
+                                    <i class="fas fa-book">38-2 Hilton Street, California, USA</i>
+                                    <i class="fas fa-phone-volume">(+01) 123 456 7890</i>
+                                    <i class="far fa-envelope-open">info@dvents.org</i>
+                                    <i class="far fa-clock">Mon - Fri 9.00 am - 6.00 pm</i>
+                                </div>
+                            </section>
+                        </div>
+    
+                        <div class="col-sm-3">
+                            <h6>Events Gallery</h6>
+    
+                            <section>
+                                <div class="container mt-2">
+    
+                                    <div class="grid">
+                                        <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
+                                        <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
+                                        <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
+                                    </div>
+    
+                                    <div class="grid mt-1">
+                                        <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
+                                        <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
+                                        <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
+                                    </div>
+    
+                                </div>
+                            </section>
+                        </div>
+    
+                        <div class="col-sm-3">
+                            <h6> Quick Links</h6>
+    
+                            <section>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <ul>
+                                            <li><a href="#">Our Services</a></li>
+                                            <li><a href="#">About Events</a></li>
+                                            <li><a href="#">News Blog</a></li>
+                                            <li><a href="#">Get In Touch</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <ul>
+                                            <li><a href="#">Our Team </a></li>
+                                            <li><a href="#">Clients List</a></li>
+                                            <li><a href="#">Brochure</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- <ul class="list">
+                                        <li><a href="#">Our Services</a></li>
+                                        <li><a href="#">About Events</a></li>
+                                        <li><a href="#">news Blog</a></li>
+                                        <li><a href="#">Get In Touch</a></li>
+                                        <li><a href="#">Our Team </a></li>
+                                        <li><a href="#">Clients List</a></li>
+                                        <li><a href="#">Brochure</a></li>
+                                    </ul> -->
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="last">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="copyright d-flex">
+                                <p class="text">© <strong>Dvents</strong>- The Events Specialists All Rights Reserved.</p>
+                                <a href="#" class="terms-link">Terms of Use</a>
+    
+                                <a href="#" class="privacy-link">Privacy Polocy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
