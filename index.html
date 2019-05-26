@@ -1,12 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Magical Touch</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 </head>
+
 <body>
-    
+    <!-- header starting -->
+    <header>
+        <div class="container">
+            <div class="mobile_nav">
+                <button class="burger" title="Open and close menu">
+                    <span class="mobile_nav__label">Open and close menu</span>
+                    <div class="top stripe"></div>
+                    <div class="middle stripe"></div>
+                    <div class="bottom stripe"></div>
+                </button>
+            </div>
+            <div class="mobile_menu">
+                <nav>
+                    <ul>
+                        <li class="visited">
+                            <a href="/home">Home</a>
+                        </li>
+                        <li>
+                            <a href="/toplist">Services</a>
+                        </li>
+                        <li>
+                            <a href="/forum">About</a>
+                        </li>
+                        <li>
+                            <a href="/blog">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="logo">
+                <span>Magical Touch</span>
+            </div>
+            <nav class="head_nav">
+                <ul>
+                    <li class="visited">
+                        <a href="/home">Home</a>
+                    </li>
+                    <li>
+                        <a href="/toplist">Services</a>
+                    </li>
+                    <li>
+                        <a href="/forum">About</a>
+                    </li>
+                    <li>
+                        <a href="/blog">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main></main>
+    <!-- header ending -->
+
+    <!-- slider starts here -->
+
+    <section id="slideshow">
+        <div class="slider">
+            <div class="slide current">
+                <div class="content">
+                    <h1>Happy Birthday</h1>
+                    <p> we celbrate your Birthday as your desire</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <h1>Happy Birthday</h1>
+                    <p> we celbrate your Birthday as your desire</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <h1>Love Proposal</h1>
+                    <p> We make your love Proposal more memorable</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <h1>Marriage/Anniversary</h1>
+                    <p>We are here to help your marriage</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="onoffswitch" style="display: none">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+            <label class="onoffswitch-label" for="myonoffswitch">Auto</label>
+        </div>
+
+        <div class="buttons">
+            <button id="prev"><i class="fas fa-arrow-left"></i></button>
+            <button id="next"><i class="fas fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+
+
+    <!-- slider ends here -->
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
