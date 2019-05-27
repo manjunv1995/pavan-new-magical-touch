@@ -3,7 +3,7 @@
 }
 
 .heading h4 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     text-align: center;
     font-size: 30px;
     color: orange;
@@ -50,11 +50,12 @@ button {
 }
 
 section {
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .icons {
     color: rgba(255, 255, 255, 0.486);
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .last {
@@ -64,4 +65,17 @@ section {
 
 .last {
     padding: 3%;
+}
+
+.header-decor {
+    display: inline-block;
+    width: 20px;
+    height: 3px;
+    background: orange;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.padding-55 {
+    padding: 55px 0 0 0;
 }
