@@ -3,7 +3,7 @@
 }
 
 .heading h4 {
-    /* margin-top: 20px; */
+    margin-top: 20px;
     text-align: center;
     font-size: 30px;
     color: orange;
@@ -50,12 +50,11 @@ button {
 }
 
 section {
-    /* margin-top: 30px; */
+    margin-top: 30px;
 }
 
 .icons {
     color: rgba(255, 255, 255, 0.486);
-    font-family: 'Open Sans', sans-serif !important;
 }
 
 .last {
@@ -67,7 +66,6 @@ section {
     padding: 3%;
 }
 
-<<<<<<< HEAD
 
 
 
@@ -190,24 +188,70 @@ section {
 
 .social-icons-list-item a {
     font-size: 20px;
-
     border-radius: 50%;
 }
 
-..social-icons-list-item a:hover {
+.social-icons-list-item a:hover {
     background-color: red;
     color: rgba(59, 57, 57, 0.548);
-=======
-.header-decor {
-    display: inline-block;
-    width: 20px;
-    height: 3px;
-    background: orange;
-    vertical-align: middle;
-    margin-right: 5px;
 }
 
-.padding-55 {
-    padding: 55px 0 0 0;
->>>>>>> 5788aa80f3e4f4e1ee523ef80b62e6c21e57db6b
+.bar-text {
+    font-size: 15px;
+}
+
+.main-skills {
+    padding: 20px 30px 20px 30px;
+}
+
+.skills-text {
+    margin-top: 40px;
+    line-height: 22px;
+    max-width: 90%;
+    font-size: 15px;
+}
+
+.skills-sub-titles {
+    margin-top: 40px;
+    line-height: 22px;
+
+}
+
+.sub-titles-list-item {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.pro-2,
+.pro-3,
+.pro-4,
+.pro-5 {
+    margin-top: 25px;
+}
+
+.about-end {
+    /* position: relative; */
+}
+
+.about-end-text {
+    font-style: italic;
+    font-size: 15px;
+    /* line-height: 15px; */
+    /* max-width: 70%; */
+}
+
+.about-end-img img {
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 30px; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.about-end-img-title {
+    margin-top: 35px;
+    margin-left: 20px;
 }
