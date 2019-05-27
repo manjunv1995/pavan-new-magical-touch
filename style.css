@@ -28,7 +28,7 @@
     color: rgba(255, 255, 255, 0.486);
 }
 
-h6 {
+#third h6 {
     color: white;
     text-align: center;
 }
@@ -64,4 +64,135 @@ section {
 
 .last {
     padding: 3%;
+}
+
+
+
+
+
+/* ABOUT */
+
+
+.about-img img {
+    width: 100%;
+    height: 30vh;
+    position: relative;
+
+}
+
+.about h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 55px;
+}
+
+.about h2 span {
+    color: red;
+    font-size: 55px;
+}
+
+.about-text {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#about {
+    margin-top: 100px;
+}
+
+#about img {
+    width: 100%;
+}
+
+.about-text {
+    font-size: 15px;
+}
+
+#jumb {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+
+}
+
+.jumbotron h3 {
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+
+.div {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.div h5 {
+    font-weight: 600;
+}
+
+.jumb-text {
+    font-size: 15px;
+    margin-top: 10px;
+    max-width: 90%;
+}
+
+.jumbotron h3 span {
+    font-size: 35px;
+    color: red;
+}
+
+.h5-text {
+    font-size: 18px;
+}
+
+#team span {
+    font-size: 35px;
+    color: red;
+}
+
+#team h3 {
+    font-size: 35px;
+}
+
+.team-text {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.team-img img {
+    width: 100%;
+}
+
+.team-1-title h3 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.team-1-sub-title h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(59, 57, 57, 0.548);
+}
+
+.team-1-text {
+    max-width: 90%;
+}
+
+.social-icons-list {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 60%;
+}
+
+.social-icons-list-item a {
+    font-size: 20px;
+
+    border-radius: 50%;
+}
+
+..social-icons-list-item a:hover {
+    background-color: red;
+    color: rgba(59, 57, 57, 0.548);
 }

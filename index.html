@@ -26,26 +26,46 @@
 </head>
 
 <body>
-    
+
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-</head>
+    </head>
 
-<body>
-    <!-- header starting -->
-    <header>
-        <div class="container">
-            <div class="mobile_nav">
-                <button class="burger" title="Open and close menu">
-                    <span class="mobile_nav__label">Open and close menu</span>
-                    <div class="top stripe"></div>
-                    <div class="middle stripe"></div>
-                    <div class="bottom stripe"></div>
-                </button>
-            </div>
-            <div class="mobile_menu">
-                <nav>
+    <body>
+        <!-- header starting -->
+        <header>
+            <div class="container">
+                <div class="mobile_nav">
+                    <button class="burger" title="Open and close menu">
+                        <span class="mobile_nav__label">Open and close menu</span>
+                        <div class="top stripe"></div>
+                        <div class="middle stripe"></div>
+                        <div class="bottom stripe"></div>
+                    </button>
+                </div>
+                <div class="mobile_menu">
+                    <nav>
+                        <ul>
+                            <li class="visited">
+                                <a href="/home">Home</a>
+                            </li>
+                            <li>
+                                <a href="/toplist">Services</a>
+                            </li>
+                            <li>
+                                <a href="/forum">About</a>
+                            </li>
+                            <li>
+                                <a href="/blog">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="logo">
+                    <span>Magical Touch</span>
+                </div>
+                <nav class="head_nav">
                     <ul>
                         <li class="visited">
                             <a href="/home">Home</a>
@@ -62,80 +82,336 @@
                     </ul>
                 </nav>
             </div>
-            <div class="logo">
-                <span>Magical Touch</span>
-            </div>
-            <nav class="head_nav">
-                <ul>
-                    <li class="visited">
-                        <a href="/home">Home</a>
-                    </li>
-                    <li>
-                        <a href="/toplist">Services</a>
-                    </li>
-                    <li>
-                        <a href="/forum">About</a>
-                    </li>
-                    <li>
-                        <a href="/blog">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main></main>
-    <!-- header ending -->
+        </header>
+        <main></main>
+        <!-- header ending -->
 
-    <!-- slider starts here -->
+        <!-- slider starts here -->
 
-    <section id="slideshow">
-        <div class="slider">
-            <div class="slide current">
-                <div class="content">
-                    <h1>Happy Birthday</h1>
-                    <p> we celbrate your Birthday as your desire</p>
+        <section id="slideshow">
+            <div class="slider">
+                <div class="slide current">
+                    <div class="content">
+                        <h1>Happy Birthday</h1>
+                        <p> we celbrate your Birthday as your desire</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="content">
+                        <h1>Happy Birthday</h1>
+                        <p> we celbrate your Birthday as your desire</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="content">
+                        <h1>Love Proposal</h1>
+                        <p> We make your love Proposal more memorable</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="content">
+                        <h1>Marriage/Anniversary</h1>
+                        <p>We are here to help your marriage</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="slide">
-                <div class="content">
-                    <h1>Happy Birthday</h1>
-                    <p> we celbrate your Birthday as your desire</p>
+            <div class="onoffswitch" style="display: none">
+                <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                <label class="onoffswitch-label" for="myonoffswitch">Auto</label>
+            </div>
+
+            <div class="buttons">
+                <button id="prev"><i class="fas fa-arrow-left"></i></button>
+                <button id="next"><i class="fas fa-arrow-right"></i></button>
+            </div>
+        </section>
+
+
+
+        <!-- slider ends here -->
+
+        <!------ABOUT starts here------->
+
+
+        <div class="container-fluid mt-3">
+            <div class="about-img">
+                <img src="image-1.jpg" alt="photo">
+            </div>
+            <div class="container">
+                <div class="about">
+                    <h2>We <span>Create Events</span> That Last's</h2>
+                    <div class="container">
+                        <p class="about-text text-center">From Wedding Functions to Birthday Parties or Corporate Events
+                            to Musical Functions, We offer full range of Events Management Services that scale to your
+                            needs & budget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="about">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="#"><img src="image-2.jpg" alt="photo"></a>
+                        <a href="#">
+                            <h5 class="text-center mt-3">Our Vision</h5>
+                        </a>
+                        <p class="about-text text-center">Aorem ipsum dolor sit amet consectetur elit sed tempor
+                            incididunt ut labore etua dolore mag aliqua minim veniam quis nostrud exercitation</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#"><img src="image-2.jpg" alt="photo"></a>
+                        <a href="#">
+                            <h5 class="text-center mt-3">Our Approach</h5>
+                        </a>
+                        <p class="about-text text-center">Aorem ipsum dolor sit amet consectetur elit sed tempor
+                            incididunt ut labore etua dolore mag aliqua minim veniam quis nostrud exercitation</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="#"><img src="image-2.jpg" alt="photo"></a>
+                        <a href="#">
+                            <h5 class="text-center mt-3">Our Goals</h5>
+                        </a>
+                        <p class="about-text text-center">Aorem ipsum dolor sit amet consectetur elit sed tempor
+                            incididunt ut labore etua dolore mag aliqua minim veniam quis nostrud exercitation</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="slide">
-                <div class="content">
-                    <h1>Love Proposal</h1>
-                    <p> We make your love Proposal more memorable</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="jumbotron" id="jumb">
+                            <h3>Why Choose <span>Dvents</span></h3>
+                            <p class="h5-text">Corem ipsum dolor sit amet elit sed do eiusmod tempor incididunt labore.
+                            </p>
+                            <div class="div">
+                                <h5>The Events Specialists</h5>
+                                <p class="jumb-text">Sit amet consectetur elit sed lusm tempor incidant temdore labore
+                                    dolore lorem ipsum consectetur adipisicing elit sed do eiusmod tempor incididunt.
+                                </p>
+                            </div>
+                            <div class="div">
+                                <h5>Dedicated Venues & Arrangements</h5>
+                                <p class="jumb-text">Sit amet consectetur elit sed lusm tempor incidant temdore labore
+                                    dolore lorem ipsum consectetur adipisicing elit sed do eiusmod tempor incididunt.
+                                </p>
+                            </div>
+                            <div class="div">
+                                <h5>All Types of Events</h5>
+                                <p class="jumb-text">Sit amet consectetur elit sed lusm tempor incidant temdore labore
+                                    dolore lorem ipsum consectetur adipisicing elit sed do eiusmod tempor incididunt.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="image-2.jpg" alt="photo">
+                    </div>
                 </div>
             </div>
 
-            <div class="slide">
-                <div class="content">
-                    <h1>Marriage/Anniversary</h1>
-                    <p>We are here to help your marriage</p>
+            <div class="container-fluid">
+                <div class="container" id="team">
+                    <h3 class="text-center"><span>Devants</span> Team Members</h3>
+                    <p class="team-text text-center">We make your events smart & impactful by personalised event
+                        management services<p>
+                </div>
+                <div class="container">
+                    <div class="team">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="team-img"><img src="image-4.jpg" alt="photo"></div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="team-1-title">
+                                                <h3>Pvan Kumar</h3>
+                                            </div>
+                                            <div class="team-1-sub-title">
+                                                <h6>Founder & director</h6>
+                                            </div>
+                                            <div class="team-1-text">
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                                                    repellat
+                                                    laudantium tempora rerum consequuntur similique inventore eius.
+                                                </p>
+                                                <div class="team-social-icons">
+                                                    <ul class="social-icons-list">
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                                        </li>
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                                        </li>
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="col-sm-6">
+
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="team-img"><img src="image-4.jpg" alt="photo"></div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="team-1-title">
+                                                <h3>Chintu</h3>
+                                            </div>
+                                            <div class="team-1-sub-title">
+                                                <h6>Events Manager</h6>
+                                            </div>
+                                            <div class="team-1-text">
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                                                    repellat
+                                                    laudantium tempora rerum consequuntur similique inventore eius.
+                                                </p>
+                                                <div class="team-social-icons">
+                                                    <ul class="social-icons-list">
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                                        </li>
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                                        </li>
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="team-img"><img src="image-4.jpg" alt="photo"></div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="team-1-title">
+                                                <h3>Revanth</h3>
+                                            </div>
+                                            <div class="team-1-sub-title">
+                                                <h6>Events Manager</h6>
+                                            </div>
+                                            <div class="team-1-text">
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                                                    repellat
+                                                    laudantium tempora rerum consequuntur similique inventore eius.
+                                                </p>
+                                                <div class="team-social-icons">
+                                                    <ul class="social-icons-list">
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                                        </li>
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                                        </li>
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="col-sm-6">
+                                <section>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="team-img"><img src="image-4.jpg" alt="photo"></div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="team-1-title">
+                                                <h3>Eswar</h3>
+                                            </div>
+                                            <div class="team-1-sub-title">
+                                                <h6>Supervisor</h6>
+                                            </div>
+                                            <div class="team-1-text">
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                                                    repellat
+                                                    laudantium tempora rerum consequuntur similique inventore eius.
+                                                </p>
+                                                <div class="team-social-icons">
+                                                    <ul class="social-icons-list">
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                                        </li>
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                                        </li>
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li class="social-icons-list-item">
+                                                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="onoffswitch" style="display: none">
-            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-            <label class="onoffswitch-label" for="myonoffswitch">Auto</label>
-        </div>
-
-        <div class="buttons">
-            <button id="prev"><i class="fas fa-arrow-left"></i></button>
-            <button id="next"><i class="fas fa-arrow-right"></i></button>
-        </div>
-    </section>
+        <!---about ends here----->
 
 
 
-    <!-- slider ends here -->
 
 
-    <div class="container-fluid">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--footer--->
+
+
+        <div class="container-fluid">
             <div class="main">
                 <div class="heading">
                     <a href="#">
@@ -143,7 +419,7 @@
                         <p class="text">Making Events Simpler</p>
                     </a>
                 </div>
-    
+
                 <div class="container" id="second">
                     <div class="row">
                         <div class="col-sm-6 mt-3">
@@ -152,33 +428,38 @@
                                 <p class="text">Sign up to get the updates about new events</p>
                             </div>
                         </div>
-    
+
                         <div class="col-sm-6 mt-4 text-center d-flex">
                             <form action="#">
                                 <input type="email" name="email" placeholder="Your Email address">
                                 <button type="button"><i class="far fa-envelope-open"></i></button>
                             </form>
-    
+
                         </div>
                     </div>
                 </div>
-    
-    
+
+
                 <div class="container" id="third">
                     <div class="row">
                         <div class="col-sm-3">
-                            <h6> About Dvents</h6>
+                            <div id="third">
+                                <h6> About Dvents</h6>
+                            </div>
                             <section>
                                 <p class="text-1">The Events Specialists!</p>
-                                <p class="text-2"> ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore
+                                <p class="text-2"> ipsum dolor sit amet elit sed lum tempor incididunt ut labore el
+                                    dolore
                                     alg minim veniam quis
                                     nostrud lorem psum dolor sit amet sed incididunt.</p>
                                 <button class="btn btn-success">Read More</button>
                             </section>
                         </div>
-    
+
                         <div class="col-sm-3">
-                            <h6>Keep In Touch</h6>
+                            <div id="third">
+                                <h6>Keep In Touch</h6>
+                            </div>
                             <section>
                                 <div class="icons">
                                     <i class="fas fa-book">38-2 Hilton Street, California, USA</i>
@@ -188,32 +469,34 @@
                                 </div>
                             </section>
                         </div>
-    
+
                         <div class="col-sm-3">
-                            <h6>Events Gallery</h6>
-    
+                            <div id="third">
+                                <h6>Events Gallery</h6>
+                            </div>
                             <section>
                                 <div class="container mt-2">
-    
+
                                     <div class="grid">
                                         <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
                                         <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
                                         <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
                                     </div>
-    
+
                                     <div class="grid mt-1">
                                         <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
                                         <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
                                         <img src="image-1.jpg" alt="photo" style="width: 70px; height:70px;">
                                     </div>
-    
+
                                 </div>
                             </section>
                         </div>
-    
+
                         <div class="col-sm-3">
-                            <h6> Quick Links</h6>
-    
+                            <div id="third">
+                                <h6> Quick Links</h6>
+                            </div>
                             <section>
                                 <div class="row">
                                     <div class="col-sm-6">
@@ -245,26 +528,41 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="last">
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="copyright d-flex">
-                                <p class="text">© <strong>Dvents</strong>- The Events Specialists All Rights Reserved.</p>
+                                <p class="text">© <strong>Dvents</strong>- The Events Specialists All Rights Reserved.
+                                </p>
                                 <a href="#" class="terms-link">Terms of Use</a>
-    
+
                                 <a href="#" class="privacy-link">Privacy Polocy</a>
                             </div>
+
+                            <!-- <div class="team-social-icons">
+                                    <ul class="social-icons-list">
+                                        <li class="social-icons-list-items">
+                                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+
+                                        </li>
+                                    </ul>
+                                </div> -->
                         </div>
                     </div>
                 </div>
             </div>
-    
+
         </div>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="index.js"></script>
-</body>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </body>
 
 </html>
