@@ -510,3 +510,13 @@ header {
 /* .slide:nth-child(5) {
     background: url('https://drive.google.com/uc?id=19eTswcHPUVwmVLuqPsUXeKcqsn1hzsQv') no-repeat center center/cover;
 } */
+.testinomials {
+    background: url('/images/2.jpg') no-repeat center center/cover;
+    background-blend-mode: multiply;
+    background-color: gray;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px;
+}

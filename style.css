@@ -1,5 +1,6 @@
 .main {
     background-color: rgb(31, 30, 30);
+    padding: 40px 0 0 0;
 }
 
 .heading h4 {
@@ -50,11 +51,16 @@ button {
 }
 
 section {
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .icons {
     color: rgba(255, 255, 255, 0.486);
+}
+
+.icons p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0;
 }
 
 .last {
@@ -112,7 +118,7 @@ section {
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 20px;
-    padding-left: 150px;
+    /* padding-left: 150px; */
 
 }
 
@@ -124,7 +130,7 @@ section {
 
 .div {
     margin-top: 50px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .div h5 {
@@ -254,4 +260,35 @@ section {
 .about-end-img-title {
     margin-top: 35px;
     margin-left: 20px;
+}
+
+footer h6 {
+    color: white;
+}
+
+.header-decor {
+    display: inline-block;
+    width: 20px;
+    height: 3px;
+    color: red;
+    background: red;
+    vertical-align: middle;
+}
+
+.quick-link-item {
+    color: gray !important
+}
+
+.quick-link-item a {
+    color: gray;
+    text-decoration: none;
+}
+
+.quick-link-item a:hover {
+    color: #E94654;
+    text-decoration: none;
+}
+
+address .fa {
+    font-weight: 400;
 }
