@@ -210,6 +210,15 @@ section {
     padding: 20px 30px 20px 30px;
 }
 
+.skills span {
+    font-size: 50px;
+    color: red;
+}
+
+.skills h3 {
+    font-size: 50px;
+}
+
 .skills-text {
     margin-top: 40px;
     line-height: 22px;
@@ -291,4 +300,286 @@ footer h6 {
 
 address .fa {
     font-weight: 400;
+}
+
+.ft-link {
+    color: white;
+    text-decoration: none;
+}
+
+.ft-link a:hover {
+    color: #E94654;
+    text-decoration: none;
+}
+
+
+
+
+
+/* service css */
+
+.service h3 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.service span {
+    font-size: 50px;
+    color: red;
+}
+
+.service-title-text {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.f-icon-title .fa {
+    color: red;
+    font-size: 30px;
+}
+
+.f-icon-title {
+    color: rgba(78, 75, 75, 0.767);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.s-text {
+    /* color: blue; */
+    font-size: 22px;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.s-under-text {
+    margin-top: 20px;
+    font-size: 15px;
+    /* padding: 10px; */
+}
+
+.s-title-f-img h2 span {
+    color: red;
+}
+
+.s-f-title span {
+    font-size: 40px;
+    color: #E94654;
+}
+
+.s-f-title h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.service-f {
+    background-color: black;
+    color: white;
+}
+
+.srevice-features-block-1 {
+    margin-top: 120px;
+    margin-left: 80px;
+    padding: 50px;
+}
+
+.s-f-s-text-1-1 {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.s-f-text-1-1 {
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.srevice-features-block-2 {
+    margin-top: 60px;
+    padding-top: 40px;
+}
+
+.s-f-title-2 {
+    font-size: 25px;
+}
+
+.s-f-text-2 {
+    font-size: 15px;
+    max-width: 70%;
+    margin-top: 10px;
+    /* margin-right: 20px; */
+    /* padding-left: 10px; */
+    padding-right: 50px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+.service-devant-featurs {
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.service-d-evnts-2 {
+    margin-top: 80px;
+}
+
+.service-d-evnts-2 span {
+    color: red;
+    font-size: 45px;
+    padding: 7px;
+}
+
+.service-d-evnts-2 h4 {
+    font-size: 35px;
+}
+
+.service-d-evnts-s-text {
+    font-size: 17px;
+    margin-top: 19px;
+    font-weight: 400;
+
+}
+
+.service-d-evnts-text {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.servive-d-events-list {
+    margin-top: 40px;
+}
+
+/* .servive-d-events-list-item{
+    margin-top: 17px;
+    font-size: 15px;
+    
+} */
+.servive-d-events-list-item .fa-mobile {
+    font-size: 50px;
+    color: #E94654;
+    padding-right: 31px;
+}
+
+.li-text {
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.d-u-e-text {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.events-list-title {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.col-sm-3 .fa {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.f-evnt-text {
+    color: rgba(54, 52, 52, 0.856);
+    text-align: center;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.d-pricing {
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+}
+
+.d-pricing h3 {
+    font-size: 50px;
+}
+
+.d-pricing span {
+    color: red;
+    font-size: 50px;
+}
+
+.d-pricing p {
+    font-size: 15px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.price h2 {
+    letter-spacing: 3px;
+}
+
+.price-div {
+    border: 1px solid black;
+    padding: 70px;
+}
+
+.p-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    max-width: 90%;
+    /* margin-left: 10px; */
+    text-align: center;
+}
+
+.btn-div {
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+    /* margin-left: 50px; */
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 15px 40px;
+    font-size: 12px;
+}
+
+/* .btn-div-1 {
+
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 15px 40px;
+} */
+
+.form-div {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.c-form {
+    color: white;
+}
+
+.c-f-title {
+    margin-top: 130px;
+}
+
+.c-f-text {
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-size: 15px;
 }
