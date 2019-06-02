@@ -533,8 +533,10 @@ address .fa {
     border: 1px solid tomato;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    padding: 70px;
+    /* padding: 70px; */
     position: relative;
+    padding: 5px 40px;
+    margin-bottom: 10px;
 }
 
 .p-text {
@@ -556,8 +558,9 @@ address .fa {
     border-radius: 50px;
     padding: 15px 40px;
     font-size: 12px;
-    background-color: orange;
+    /* background-color: orange; */
     color: white;
+    border: 1px solid orange
 }
 
 .form-div {
@@ -631,42 +634,35 @@ address .fa {
 }
 
 .wrapper-1 {
-    position: relative;
     background-color: rgba(10, 141, 10, 0.986);
-    height: 180px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    color: white;
 }
 
 .wrapper-2 {
-    position: relative;
     background-color: #0707f5;
-    height: 180px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    color: white;
+}
+
+.magical-info {
+    margin-bottom: 5px;
 }
 
 .wrapper-3 {
-    position: relative;
     background-color: black;
-    height: 180px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    color: white;
 }
 
 .c-icon {
     position: absolute;
-    top: 34px;
-    right: 45px;
     font-size: 30px;
+    top: 0;
+    right: 20px;
 }
 
 .w-content {
+    /* position: relative;
+    top: 80px; */
+    padding: 10px;
+    height: 140px;
     position: relative;
-    top: 80px;
+    color: white
 }
 
 .c-i-title {
@@ -675,7 +671,7 @@ address .fa {
 }
 
 .c-i-text {
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: 500;
 }
 
@@ -715,9 +711,22 @@ address .fa {
     margin-bottom: 100px;
     width: 100%;
 }
-.btn-div:hover{
-    color: red 
+
+.btn-div:hover {
+   background: orange;
+   color: white;
+   border: 2px solid white;
+   transition: 0.4s ease-in;
 }
-.pricing-hr{
+
+.pricing-hr {
     background: gold;
+}
+
+.madical-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
