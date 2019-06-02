@@ -530,8 +530,11 @@ address .fa {
 }
 
 .price-div {
-    border: 1px solid blue;
+    border: 1px solid tomato;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     padding: 70px;
+    position: relative;
 }
 
 .p-text {
@@ -544,22 +547,18 @@ address .fa {
 }
 
 .btn-div {
-    color: white;
+    position: absolute;
+    top: 340px;
+    right: 100px;
     font-weight: 900;
     text-align: center;
     margin-top: 20px;
-    /* margin-left: 50px; */
-    border: 1px solid blue;
     border-radius: 50px;
     padding: 15px 40px;
     font-size: 12px;
-}
-
-/* .btn-div button :hover {   
-    background-color: red;
+    background-color: orange;
     color: white;
-    
-} */
+}
 
 .form-div {
     margin-top: 50px;
@@ -622,28 +621,9 @@ address .fa {
 
 
 
-
-/* contact */
-
-/* .contact{
-    background-color: black;
-    color: white;
+.detailes {
+    margin-top: 60px;
 }
-.contact h2{
-    margin-top: 8rem;
-}
-.detailes .container {
-    display: flex;
-    justify-content: space-around;
-}   
-.c-inner{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 100px;
-} */
-
-/* contact */
 
 
 .h1-title {
@@ -653,27 +633,27 @@ address .fa {
 .wrapper-1 {
     position: relative;
     background-color: rgba(10, 141, 10, 0.986);
-    /* text-align: center; */
     height: 180px;
-    border-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     color: white;
 }
 
 .wrapper-2 {
     position: relative;
     background-color: #0707f5;
-    /* text-align: center; */
     height: 180px;
-    border-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     color: white;
 }
 
 .wrapper-3 {
     position: relative;
     background-color: black;
-    /* text-align: center; */
     height: 180px;
-    border-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     color: white;
 }
 
