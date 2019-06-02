@@ -367,6 +367,11 @@ address .fa {
     color: #E94654;
 }
 
+.fa-square-o {
+    color: #E94654;
+    /* pendig */
+}
+
 .s-f-title h2 {
     font-size: 40px;
     font-weight: 600;
@@ -582,4 +587,82 @@ address .fa {
     margin-top: 15px;
     letter-spacing: 1px;
     font-size: 15px;
+}
+
+
+
+/* contact */
+
+/* .contact{
+    background-color: black;
+    color: white;
+}
+.contact h2{
+    margin-top: 8rem;
+}
+.detailes .container {
+    display: flex;
+    justify-content: space-around;
+}   
+.c-inner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 100px;
+} */
+
+/* contact */
+
+
+.h1-title {
+    margin-top: 20px;
+}
+
+.wrapper-1 {
+    position: relative;
+    background-color: rgba(10, 141, 10, 0.986);
+    /* text-align: center; */
+    height: 180px;
+    border-radius: 5px;
+    color: white;
+}
+
+.wrapper-2 {
+    position: relative;
+    background-color: #0707f5;
+    /* text-align: center; */
+    height: 180px;
+    border-radius: 5px;
+    color: white;
+}
+
+.wrapper-3 {
+    position: relative;
+    background-color: black;
+    /* text-align: center; */
+    height: 180px;
+    border-radius: 5px;
+    color: white;
+}
+
+.c-icon {
+    position: absolute;
+    top: 34px;
+    right: 45px;
+    font-size: 30px;
+}
+
+.w-content {
+    position: relative;
+    top: 80px;
+}
+
+.c-i-title {
+    font-size: 18px;
+    font-weight: 250;
+}
+
+.c-i-text {
+    font-size: 20px;
+    font-weight: 500;
 }
