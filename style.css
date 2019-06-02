@@ -79,13 +79,6 @@ section {
 /* ABOUT */
 
 
-.about-img img {
-    width: 100%;
-    height: 30vh;
-    position: relative;
-
-}
-
 .about h2 {
     margin-top: 50px;
     text-align: center;
@@ -244,8 +237,15 @@ section {
     margin-top: 25px;
 }
 
-.about-end {
-    /* position: relative; */
+.price-img {
+    background: url('/images/architecture.jpg') no-repeat center center/cover;
+    background-blend-mode: multiply;
+    background-color: gray;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px;
 }
 
 .about-end-text {
@@ -313,7 +313,7 @@ address .fa {
 }
 
 
-
+/* about-end */
 
 
 /* service css */
@@ -420,11 +420,6 @@ address .fa {
     padding-right: 50px;
     line-height: 24px;
 }
-
-
-
-
-
 
 .service-devant-featurs {
     margin-top: 70px;
@@ -535,7 +530,7 @@ address .fa {
 }
 
 .price-div {
-    border: 1px solid black;
+    border: 1px solid blue;
     padding: 70px;
 }
 
@@ -549,25 +544,21 @@ address .fa {
 }
 
 .btn-div {
+    color: white;
     font-weight: 900;
     text-align: center;
     margin-top: 20px;
     /* margin-left: 50px; */
-    border: 1px solid black;
+    border: 1px solid blue;
     border-radius: 50px;
     padding: 15px 40px;
     font-size: 12px;
 }
 
-/* .btn-div-1 {
-
-    font-weight: 900;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 50px;
-    border: 1px solid black;
-    border-radius: 50px;
-    padding: 15px 40px;
+/* .btn-div button :hover {   
+    background-color: red;
+    color: white;
+    
 } */
 
 .form-div {
@@ -575,19 +566,60 @@ address .fa {
     margin-bottom: 100px;
 }
 
-.c-form {
-    color: white;
-}
-
 .c-f-title {
+    color: white;
     margin-top: 130px;
 }
 
 .c-f-text {
+    color: white;
     margin-top: 15px;
     letter-spacing: 1px;
     font-size: 15px;
 }
+
+.c-form input[type=text] {
+    border: none;
+    border-bottom: 2px solid greenyellow;
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    font-style: italic;
+}
+
+.c-form ::placeholder {
+    color: white;
+    padding-left: 15px;
+}
+
+.c-form input[type=email] {
+    border: none;
+    border-bottom: 2px solid greenyellow;
+    margin-top: 20px;
+    width: 100%;
+    font-style: italic;
+}
+
+.c-form textarea {
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px ridge blue;
+    font-style: italic;
+    color: black;
+}
+
+.c-form input[type=button] {
+    background-color: rgba(24, 26, 102, 0.918);
+    color: white;
+    padding: 3px 6px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-top: 10px;
+    /* margin-bottom: 100px; */
+    width: 100%;
+}
+
 
 
 
@@ -665,4 +697,41 @@ address .fa {
 .c-i-text {
     font-size: 20px;
     font-weight: 500;
+}
+
+.c-div-form {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.form input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 35px;
+    width: 100%;
+    font-style: italic;
+}
+
+.form ::placeholder {
+    color: black;
+    padding-left: 10px;
+}
+
+.form textarea {
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    font-style: italic;
+}
+
+.form input[type=button] {
+    background-color: rgba(241, 9, 9, 0.678);
+    color: white;
+    padding: 3px 6px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: 100%;
 }
