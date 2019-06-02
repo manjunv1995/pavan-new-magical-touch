@@ -715,3 +715,9 @@ address .fa {
     margin-bottom: 100px;
     width: 100%;
 }
+.btn-div:hover{
+    color: red 
+}
+.pricing-hr{
+    background: gold;
+}
